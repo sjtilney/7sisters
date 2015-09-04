@@ -34,9 +34,21 @@
 
     <!--fonts -->
 
+
+
 </head>
 
 <body id="page-top">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -90,6 +102,8 @@
                  hands and feet. We provide our customers the most luxurious 
                  manicures, artificial nails, facials and waxing</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+
+
             </div>
         </div>
     </header>
@@ -336,7 +350,7 @@
             </div>
         </div>
     </section>
-
+    
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
@@ -460,24 +474,41 @@
 
                 <div class="row">    
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-3 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>650-573-8899</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-3 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:info@7sistersnailspa.com">info@7sistersnailspa.com</a></p>
                 </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-3 text-center">
                     <i class="fa fa-bank fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="http://maps.google.com/?q=101 W 25th Avenue, San Mateo CA 95122">
                         7 Sisters Nail Spa<br>
                         101 W 25th Avenue<br>
                         San Mateo, CA 94403</a></p>
-                </div>
+                    </div>
+
+                     <div class="col-md-3 text-center">
+                        <div><i class="fa fa-facebook-official fa-3x wow bounceIn" data-wow-delay=".1s"></i></div>
+                        <div class="fb-like" 
+                            data-href="https://www.facebook.com/7SistersNailSpa" 
+                            data-width="200" 
+                            data-layout="standard" 
+                            data-action="like" 
+                            data-show-faces="true" 
+                            data-share="true">
+                        </div>
+                    </div>
+
+
+
 
             </div>
+
+            
 
 
             </div>
@@ -497,6 +528,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+   
 
 </body>
 
